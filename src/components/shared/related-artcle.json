@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_related_artcles",
+  "info": {
+    "displayName": "RelatedArtcle"
+  },
+  "options": {},
+  "attributes": {
+    "into": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}
